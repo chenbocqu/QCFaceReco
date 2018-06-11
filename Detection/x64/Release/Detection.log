@@ -1,0 +1,18 @@
+﻿生成启动时间为 2018/6/11 20:20:13。
+     1>项目“E:\WorkSpace\QCFaceReco\Detection\Detection.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\DevelopEnvirment\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt src\facedetection_test.cpp
+         facedetection_test.cpp
+     1>src\facedetection_test.cpp(69): warning C4244: “初始化”: 从“int64”转换到“long”，可能丢失数据
+     1>src\facedetection_test.cpp(71): warning C4244: “初始化”: 从“int64”转换到“long”，可能丢失数据
+       Link:
+         E:\DevelopEnvirment\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\WorkSpace\QCFaceReco\x64\Release\Detection.exe" /INCREMENTAL:NO /NOLOGO opencv_core2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\WorkSpace\QCFaceReco\x64\Release\Detection.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\WorkSpace\QCFaceReco\x64\Release\Detection.lib" /MACHINE:X64 x64\Release\facedetection_test.obj
+         E:\WorkSpace\QCFaceReco\x64\Release\FaceDetection.lib
+         正在生成代码
+         已完成代码的生成
+         Detection.vcxproj -> E:\WorkSpace\QCFaceReco\x64\Release\Detection.exe
+     1>已完成生成项目“E:\WorkSpace\QCFaceReco\Detection\Detection.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.25

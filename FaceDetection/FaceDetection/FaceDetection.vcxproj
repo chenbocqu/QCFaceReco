@@ -71,12 +71,14 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\WorkSpace\QCFaceReco\FaceDetection\FaceDetection\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>E:\WorkSpace\QCFaceReco\FaceDetection\FaceDetection\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -162,17 +164,17 @@
     <ClInclude Include="include\util\nms.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\classifier\lab_boosted_classifier.cpp" />
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\classifier\mlp.cpp" />
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\classifier\surf_mlp.cpp" />
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\face_detection.cpp" />
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\feat\lab_feature_map.cpp" />
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\feat\surf_feature_map.cpp" />
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\fust.cpp" />
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\io\lab_boost_model_reader.cpp" />
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\io\surf_mlp_model_reader.cpp" />
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\util\image_pyramid.cpp" />
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\util\nms.cpp" />
+    <ClCompile Include="src\classifier\lab_boosted_classifier.cpp" />
+    <ClCompile Include="src\classifier\mlp.cpp" />
+    <ClCompile Include="src\classifier\surf_mlp.cpp" />
+    <ClCompile Include="src\face_detection.cpp" />
+    <ClCompile Include="src\feat\lab_feature_map.cpp" />
+    <ClCompile Include="src\feat\surf_feature_map.cpp" />
+    <ClCompile Include="src\fust.cpp" />
+    <ClCompile Include="src\io\lab_boost_model_reader.cpp" />
+    <ClCompile Include="src\io\surf_mlp_model_reader.cpp" />
+    <ClCompile Include="src\util\image_pyramid.cpp" />
+    <ClCompile Include="src\util\nms.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

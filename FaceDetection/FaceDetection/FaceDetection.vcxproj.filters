@@ -39,21 +39,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\classifier\lab_boosted_classifier.h">
-      <Filter>头文件\classifier</Filter>
-    </ClInclude>
-    <ClInclude Include="include\classifier\mlp.h">
-      <Filter>头文件\classifier</Filter>
-    </ClInclude>
-    <ClInclude Include="include\classifier\surf_mlp.h">
-      <Filter>头文件\classifier</Filter>
-    </ClInclude>
-    <ClInclude Include="include\feat\lab_feature_map.h">
-      <Filter>头文件\feat</Filter>
-    </ClInclude>
-    <ClInclude Include="include\feat\surf_feature_map.h">
-      <Filter>头文件\feat</Filter>
-    </ClInclude>
     <ClInclude Include="include\io\lab_boost_model_reader.h">
       <Filter>头文件\io</Filter>
     </ClInclude>
@@ -90,39 +75,54 @@
     <ClInclude Include="include\model_reader.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="include\classifier\lab_boosted_classifier.h">
+      <Filter>头文件\classifier</Filter>
+    </ClInclude>
+    <ClInclude Include="include\classifier\mlp.h">
+      <Filter>头文件\classifier</Filter>
+    </ClInclude>
+    <ClInclude Include="include\classifier\surf_mlp.h">
+      <Filter>头文件\classifier</Filter>
+    </ClInclude>
+    <ClInclude Include="include\feat\lab_feature_map.h">
+      <Filter>头文件\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\feat\surf_feature_map.h">
+      <Filter>头文件\feat</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\classifier\lab_boosted_classifier.cpp">
+    <ClCompile Include="src\classifier\lab_boosted_classifier.cpp">
       <Filter>源文件\classifier</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\classifier\mlp.cpp">
+    <ClCompile Include="src\classifier\mlp.cpp">
       <Filter>源文件\classifier</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\classifier\surf_mlp.cpp">
+    <ClCompile Include="src\classifier\surf_mlp.cpp">
       <Filter>源文件\classifier</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\feat\lab_feature_map.cpp">
+    <ClCompile Include="src\feat\lab_feature_map.cpp">
       <Filter>源文件\feat</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\feat\surf_feature_map.cpp">
+    <ClCompile Include="src\feat\surf_feature_map.cpp">
       <Filter>源文件\feat</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\io\lab_boost_model_reader.cpp">
+    <ClCompile Include="src\io\lab_boost_model_reader.cpp">
       <Filter>源文件\io</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\io\surf_mlp_model_reader.cpp">
+    <ClCompile Include="src\io\surf_mlp_model_reader.cpp">
       <Filter>源文件\io</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\util\image_pyramid.cpp">
+    <ClCompile Include="src\util\image_pyramid.cpp">
       <Filter>源文件\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\util\nms.cpp">
+    <ClCompile Include="src\util\nms.cpp">
       <Filter>源文件\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\face_detection.cpp">
+    <ClCompile Include="src\face_detection.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SeetaFaceEngine\FaceDetection\src\fust.cpp">
+    <ClCompile Include="src\fust.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

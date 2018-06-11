@@ -1,0 +1,35 @@
+﻿生成启动时间为 2018/6/11 18:15:03。
+     1>项目“E:\WorkSpace\SeetaFaceEngine\FaceDetection\examples\FaceDetection\FaceDetection.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\DevelopEnvirment\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D FACEDETECTION_EXPORTS /D SEETA_EXPORTS /D USE_OPENMP /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\src\classifier\lab_boosted_classifier.cpp ..\..\src\classifier\mlp.cpp ..\..\src\classifier\surf_mlp.cpp ..\..\src\face_detection.cpp ..\..\src\feat\lab_feature_map.cpp ..\..\src\feat\surf_feature_map.cpp ..\..\src\fust.cpp ..\..\src\io\lab_boost_model_reader.cpp ..\..\src\io\surf_mlp_model_reader.cpp ..\..\src\util\image_pyramid.cpp ..\..\src\util\nms.cpp
+         nms.cpp
+         image_pyramid.cpp
+         surf_mlp_model_reader.cpp
+         lab_boost_model_reader.cpp
+         fust.cpp
+         surf_feature_map.cpp
+         lab_feature_map.cpp
+         face_detection.cpp
+         surf_mlp.cpp
+         mlp.cpp
+         lab_boosted_classifier.cpp
+         正在生成代码...
+       Link:
+         E:\DevelopEnvirment\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\WorkSpace\SeetaFaceEngine\FaceDetection\examples\x64\Debug\FaceDetection.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\WorkSpace\SeetaFaceEngine\FaceDetection\examples\x64\Debug\FaceDetection.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\WorkSpace\SeetaFaceEngine\FaceDetection\examples\x64\Debug\FaceDetection.lib" /MACHINE:X64 /DLL x64\Debug\lab_boosted_classifier.obj
+         x64\Debug\mlp.obj
+         x64\Debug\surf_mlp.obj
+         x64\Debug\face_detection.obj
+         x64\Debug\lab_feature_map.obj
+         x64\Debug\surf_feature_map.obj
+         x64\Debug\fust.obj
+         x64\Debug\lab_boost_model_reader.obj
+         x64\Debug\surf_mlp_model_reader.obj
+         x64\Debug\image_pyramid.obj
+         x64\Debug\nms.obj
+            正在创建库 E:\WorkSpace\SeetaFaceEngine\FaceDetection\examples\x64\Debug\FaceDetection.lib 和对象 E:\WorkSpace\SeetaFaceEngine\FaceDetection\examples\x64\Debug\FaceDetection.exp
+         FaceDetection.vcxproj -> E:\WorkSpace\SeetaFaceEngine\FaceDetection\examples\x64\Debug\FaceDetection.dll
+     1>已完成生成项目“E:\WorkSpace\SeetaFaceEngine\FaceDetection\examples\FaceDetection\FaceDetection.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.73
